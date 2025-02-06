@@ -40,41 +40,36 @@
 
 <section class="contenu">
    <div class="class">
-    <form >
+    <form id="movie-form" >
         <h1 class="text-center my-5" style="color: white;">Ajouter une Nouveau</h1>
         <div class="mb-3">
-            <label for="recipeTitle" class="form-label">Titre de Film</label>
+            <label for="filmTitle" class="form-label">Titre de Film</label>
             <input type="text" class="form-control" id="nom" required>
         </div>
         <div class="mb-3">
-            <label for="recipeDescription" class="form-label">Histoire:</label>
+            <label for="histoir" class="form-label">Histoire:</label>
             <textarea class="form-control" id="histoir" rows="3" required></textarea>
         </div>
         <div class="mb-3">
-            <label for="recipeImage" class="form-label">Réalisateur:</label>
+            <label for="realisateur" class="form-label">Réalisateur:</label>
             <input type="text" class="form-control" id="realisateur" required>
         </div>
         <div class="mb-3">
-            <label for="recipeImage" class="form-label">Année de sortie:</label>
+            <label for="anneeSortie" class="form-label">Année de sortie:</label>
             <input type="text" class="form-control" id="annee" required>
         </div>
         <div class="mb-3">
-            <label for="recipeCategory" class="form-label">Genre:</label>
+            <label for="genre" class="form-label">Genre:</label>
             <select class="form-select" id="genre" required>
-                <option value="Entée">Entrée</option>
-                <option value="Plat-Principal">Plat Principal</option>
-                <option value="Dessert">Dessert</option>
+                <option value="hurreur">hurreur</option>
+                <option value="action">action</option>
+                <option value="humeur">humeur</option>
             </select>
         </div>
         <div class="mb-3">
-            <label for="recipeImage" class="form-label">URL de l'image de film:</label>
-            <input type="text" class="form-control" id="image" required>
+            <label for="imgFilm" class="form-label">l'image de film:</label>
+            <input type="file" class="form-control" id="image" required>
         </div>
-        <div class="mb-3">
-            <label for="recipeImage" class="form-label">URL de film:</label>
-            <input type="text" class="form-control" id="url" required>
-        </div>
-        
         <button type="" class="btn" id="btn">Ajouter le film</button>
     </form>
 </div>
